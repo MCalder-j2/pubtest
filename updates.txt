@@ -1,0 +1,37 @@
+;aiu;
+
+[Update 2.0]
+Name = eFax Router 2.0.0
+ProductVersion = 2.0.0.0
+URL = https://enterprise.efax.com/docs/default-source/fax-api/efax_router_2.0.0_installer.exe
+Size = 78528597
+MD5 = 7b6b861a0237c635f05501648accb37b
+ServerFileName = eFax-Router-2.0.0-Installer.exe
+Flags = NoCache
+RegistryKey = HKUD\Software\j2 Cloud Services\eFax Router\Version
+Version = 2.0.0.0
+Description = Release 2.0 is a performance focused release which uses push notification to improve the eFax Router load capabilities.
+Description1 = Please contact Sales Engineering at corporatese@j2.com ** before upgrading** to eFax Router 2.0 to enable the new router on your account.  Failure to do so may result in lost faxes.
+Feature = Push Notifications for received faxes.
+AutoCloseApplication = [APPDIR]efax-router.exe
+
+[Update]
+Name = eFax Router 1.1.2
+ProductVersion = 1.1.2.0
+URL = https://enterprise.efax.com/docs/default-source/fax-api/efax_router_1.1.2_installer.exe
+Size = 77913650
+MD5 = fb1d562cf672e4e9ea0e508040e21024
+ServerFileName = eFax-Router-1.1.2-Installer.exe
+Flags = NoCache
+RegistryKey = HKUD\Software\j2 Cloud Services\eFax Router\Version
+Version = 1.1.0
+Description = Release 1.1 is a feature-focused release, including some much-demanded functionality which extends the original capabilities of the eFax Router product.  
+Description1 = The inclusion of Send functionality allows the router to provide bi-directional fax transmission which is especially useful to our larger "domain-level-send" customers.
+Description2 = The addition of a manual download capability along with minor enhancements to the way users are managed and the way events are logged all help to make the work of administering an eFax Rtouer installation a little less tedious.
+Feature = Send Functionality: eFax Router can now send faxes!  Details are in the Administrator's Guide
+Feature1 = Manual Download: Administrators now have the capability of manually downloading (or re-downloading) a user's faxes for a specified date range.
+Enhancement = Log files are now able to be written in JSON as well as text (user configurable)
+Enhancement1 = API Connection Icon: A new icon in the top-right corner of the Admin application indicates whether or not the Router is connected to the eFax API.  Very useful for troubleshooting.
+Enhancement2 = Auto Upgrade: eFax Router can now check online for newer versions and automatically download and install them.
+Enhancement3 = Administrator's Guide: Now included in the build and has its own Programs Menu shortcut
+AutoCloseApplication = [APPDIR]efax-router.exe
