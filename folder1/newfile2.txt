@@ -1,0 +1,1 @@
+I am a new file that should be under folder1.
